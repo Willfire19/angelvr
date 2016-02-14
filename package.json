@@ -1,0 +1,15 @@
+{
+  "name": "angelvr",
+  "version": "1.0.0",
+  "description": "A blog for my projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Angeley",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}
