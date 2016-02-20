@@ -1,0 +1,56 @@
+/* main.css */
+
+/* 
+	green: #11750C;
+	blue: #44C8DE;
+	orange: #FF4D22;
+	white: #F2E9E3;
+	grey: #FF4D22;
+*/
+
+html, body, .content-container {
+	height: 100%;
+}
+
+/*.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  align-items: center;
+}
+
+h1, h2 {
+	color: #E5DBCE;
+}
+
+i {
+	vertical-align: middle;
+}
+
+.feed {
+	background-color: rgba(44, 44, 47, 1.0);
+	height: 100%;
+	overflow-y: scroll;
+	-webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.feed_header > h1 {
+	color: #FF4D22;
+}*/
+
+/*.feed_item {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin: 5px;
+}*/
+
+/*.feed_item a {
+	color: #F2E9E3;
+}*/
+
+/*i.fa-eye-slash {
+	vertical-align: middle;
+}*/

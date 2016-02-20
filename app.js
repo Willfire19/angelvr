@@ -11,7 +11,13 @@ app.set('view engine', 'ejs');
 
 app.get('/', function( req, resp ) {
 
-	resp.render('pages/index');
+	resp.redirect('/blog');
+
+});
+
+app.get('/blog', function( req, resp ) {
+
+	resp.render('pages/blog');
 
 });
 
