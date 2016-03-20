@@ -12,6 +12,14 @@ html, body, .content-container {
 	height: 100%;
 }
 
+article {
+	padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #888888;
+  box-shadow: 5px 5px 5px #888888;
+}
+
 /*.row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
