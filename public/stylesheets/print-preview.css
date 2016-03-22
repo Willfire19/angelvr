@@ -218,4 +218,13 @@
   .fa-ul {
     margin: 0;
   }
+
+  .no-resume {
+    display: none !important;
+  }
+
+  .work-date {
+    display: block;
+    float: right;
+  }
 }

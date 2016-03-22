@@ -16,3 +16,8 @@ div.panel-body {
 .fa-ul {
   margin: 0;
 }
+
+.work-date {
+  display: block;
+  float: right;
+}
