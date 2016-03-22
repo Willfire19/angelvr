@@ -1,6 +1,6 @@
 /** My Custom Styles **/
 
-p {
+/*p {
   margin: 0px;
   line-height: 1.5;
 }
@@ -11,4 +11,8 @@ h1 {
 
 div.panel-body {
   padding: 0px;
+}*/
+
+.fa-ul {
+  margin: 0;
 }
