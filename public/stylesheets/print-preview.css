@@ -227,4 +227,8 @@
     display: block;
     float: right;
   }
+
+  .work-city {
+    margin-right: 10px;
+  }
 }
