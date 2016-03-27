@@ -4,6 +4,7 @@ var http = require('http').Server(app);
 
 
 app.use(express.static(__dirname + '/public'));
+app.use('/public', express.static(__dirname + '/public'));
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');

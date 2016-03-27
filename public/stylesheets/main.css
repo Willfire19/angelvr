@@ -12,6 +12,17 @@ html, body, .content-container {
 	height: 100%;
 }
 
+body {
+	background-image: url('/public/images/lowPolyBackground.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; 
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 article {
 	padding: 10px;
   margin: 10px;
