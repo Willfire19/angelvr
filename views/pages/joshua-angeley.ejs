@@ -4,6 +4,11 @@
 		<% include ../partials/header.ejs %>
 		<link rel="stylesheet" type="text/css" href="/stylesheets/print.css">
 		<link rel="stylesheet" type="text/css" href="/stylesheets/print-preview.css">
+		
+		<!-- <link href='https://fonts.googleapis.com/css?family=Coda:800' rel='stylesheet' type='text/css'> -->
+		<link href='https://fonts.googleapis.com/css?family=Rubik+One' rel='stylesheet' type='text/css'>
+
+		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
 		<script src="/js/skillChart.js"></script>
 	</head>
@@ -19,7 +24,8 @@
 						<!-- Header -->
 						<div class="col-xs-12 col-sm-8">
 							<h1>Joshua Angeley</h1>
-							<p class="lead">Software engineer experienced in object-oriented programming; developing, testing, and debugging code. <span class="no-resume">Successful working in both team and self-directed settings.</span></p>
+							<p class="lead">A Trail-Blazer in VR development</span></p>
+							<!-- <p class="lead">Software engineer experienced in object-oriented programming; developing, testing, and debugging code. <span class="no-resume">Successful working in both team and self-directed settings.</span></p> -->
 						</div>
 
 						<!-- Contact Info -->
@@ -39,22 +45,22 @@
 
 						<div class="col-xs-12 col-sm-8">
 							<!--Work Experience -->
-							<p><b> > Work Experience</b></p>
+							<p class="category-header"> Work Experience </p>
 
 							<p><b>DMAnalytics <span class="work-date"><span class="work-city">Atlanta, GA</span>December 2015 - Present</span></b></p>
-							<p><b>Software Engineer</b></p>
+							<p><i>Software Engineer</i></p>
 							<p>
 								In charge of improving the toolkit the company sells to various grocery stores around the US. This involves making changes to the core codebase written in .Net and C#, to adapting our client controls written in Javascript, to creating and editting our custom templating library.
 							</p>
 
 							<p><b>Circuit Therapeutics <span class="work-date"><span class="work-city">Menlo Park, CA</span>June 2015 - Present</span></b></p>
-							<p><b>Consultant/Software Engineer</b></p>
+							<p><i>Consultant/Software Engineer</i></p>
 							<p>
 								Software development of a calculator for light transmission in brain tissue to be used for optogenetics. Translating engineering simulation results to web ready code to develop a web based application. Code work in Python and Javascript, version control in Git, operating in Linux and Windows environments.
 							</p>
 
 							<p><b>CoshXLabs <span class="work-date"><span class="work-city">Charlottesville, VA</span>Summer 2013</span></b></p>
-							<p><b>Software Engineering Intern <span class="work-date">Summer 2014</span></b></p>
+							<p><i>Software Engineering Intern</i> <b><span class="work-date">Summer 2014</span></b></p>
 							<p>
 								Worked with small teams to build websites for clients using Ruby on Rails, JQuery, HTML, and CSS.<br>
 								Assisted in maintaining and updating existing applications.<br>
@@ -62,7 +68,7 @@
 							</p>
 
 							<!-- Projects -->
-							<p><b> > Selected Projects</b></p>
+							<p class="category-header"> Selected Projects </p>
 
 							<p><b>LaserGameVR</b></p>
 							<p>
@@ -96,42 +102,33 @@
 
 							<!-- Education -->
 							<div>
-								<p><b> > Education</b></p>
+								<p class="category-header"> Education </p>
 								<p>
 									B.S. Computer Science, May 2015<br>
-									University of Virginia, Charlottesville, VA
+									University of Virginia<br>
+									Charlottesville, VA
 								</p>
 							</div>
 
 							<!-- Skills -->
 							<div>
-								<p><b> > Skills</b></p>
+								<p class="category-header"> Skills </p>
 								<canvas id="skillChart" width="200px;"></canvas>
-								<!-- <p>
-									RUBY ON RAILS<br>
-									PYTHON<br>
-									<span class="no-resume">JAVA<br></span>
-									JAVASCRIPT<br>
-									<span class="no-resume">C++<br></span>
-									HTML<br>
-									CSS<br>
-									<span class="no-resume">PHP<br></span>			
-								</p> -->
 							</div>
 
 							<!-- Awards -->
 							<div>
-								<p><b> > Awards</b></p>
+								<p class="category-header"> Awards </p>
 								
-								<p><b>PCArts <br>(Piedmont Council of the Arts)</b></p>
-								<p><b>2nd Place winner May 2014</p></b>
-								<p>
+								<p style="margin-top: 5px;"><b>PCArts <br>(Piedmont Council of the Arts)</b></p>
+								<p><i>2nd Place winner May 2014</i></p>
+								<p style="margin-top: 5px;">
 									Part of a team of UVA students that built an Android application for a local music non-profit organization. I was responsible for parsing json data into the android application.
 								</p>
 
-								<p><b>Richmond StartUp Weekend</b></p>
-								<p><b>2nd Place winner July 2013</p></b>
-								<p>
+								<p style="margin-top: 15px;"><b>Richmond StartUp Weekend</b></p>
+								<p><i>2nd Place winner July 2013</i></p>
+								<p style="margin-top: 5px;">
 									Competed against 15 other teams to come up with the best startup idea in 48 hours. We built a fully functional prototype website that allows companies to a/b test their own websites easily and at a low cost. My contribution included coding the server-side in Ruby on Rails.
 								</p>
 							</div>

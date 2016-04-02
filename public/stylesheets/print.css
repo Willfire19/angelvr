@@ -25,3 +25,8 @@ div.panel-body {
 .work-city {
 	margin-right: 30px;
 }
+
+.category-header {
+  /*font-family: 'Coda', cursive;*/
+  font-family: 'Rubik One', sans-serif;
+}

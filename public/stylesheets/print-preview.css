@@ -231,4 +231,8 @@
   .work-city {
     margin-right: 10px;
   }
-}
+
+  .category-header {
+    /*font-family: 'Coda', cursive;*/
+    font-family: 'Rubik One', sans-serif;
+  }
