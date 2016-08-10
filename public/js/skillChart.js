@@ -14,7 +14,7 @@ $(document).ready(function() {
         pointStrokeColor: "#fff",
         pointHighlightFill: "#fff",
         pointHighlightStroke: "rgba(151,187,205,1)",
-	      data: [6, 6, 6, 5, 6, 8, 8]
+	      data: [6, 6, 6, 6, 6, 8, 8]
 	    }
 	  ]
 	};
