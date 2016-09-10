@@ -215,6 +215,10 @@
     margin: 0px;
   }
 
+  hr {
+    margin: 10px;
+  }
+
   .fa-ul {
     margin: 0;
   }
@@ -235,4 +239,5 @@
   .category-header {
     /*font-family: 'Coda', cursive;*/
     font-family: 'Rubik One', sans-serif;
+    margin-top: 10px;
   }
