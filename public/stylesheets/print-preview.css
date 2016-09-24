@@ -194,6 +194,10 @@
   
   /** My Custom Styles **/
 
+  body {
+    padding: 0px;
+  }
+
   p {
     margin: 0px;
     line-height: 1.5;
