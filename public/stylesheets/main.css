@@ -21,6 +21,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-top: 70px;
 }
 
 article {
@@ -29,6 +30,10 @@ article {
   border-radius: 5px;
   border: 1px solid #888888;
   box-shadow: 5px 5px 5px #888888;
+}
+
+.navbar-brand {
+	padding: 5px 5px;
 }
 
 /*.row-eq-height {
