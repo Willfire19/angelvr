@@ -1,0 +1,30 @@
+<div class="panel panel-default">
+	<div class="panel-body">
+		<h3>First Blog Entry - LaserGame</h3>
+		<h4>By Joshua Angeley</h4>
+
+		<p>Over the past couple of months, I have been working on a FPS (First Person Shooter) VR game that will be playable on the Oculus Rift. It is no where near complete, but I have learned a lot so far, and I've had people ask me about the game, so I'll do my best to share what I've learned.</p>
+
+		<h4>The First Person Cursor</h4>
+
+		<p>In nearly every FPS there is a cursor in the exact middle of the screen that represents where the player is aiming their gun. While this approach works fine for games played on a monitor or a tv, this approach does not work well in VR in a way I did not expect. I had both of my brothers try to shoot an object in a far off distance, and while my youngest brother could hit it just fine, my other brother was consistently missing by inches to the left. It turns out that my youngest brother is right eye dominant, while my younger brother is left eye dominant.</p>
+
+
+		<p>The Oculus Rift works by rendering the scene twice on both sides of the headset screen, one for each eye. This means that the cursor is rendering twice as well, which means the appearance of the cursor is going to be dependent on which eye is more dominant.</p>
+
+		<p>One workaround for this problem is to only render the cursor over the dominant eye, but the solution we decided to go with is to place cursor in 3d space in the world. Simply, when a player looks in a direction in the game, a small sphere is placed on the first object that is in the player's view. This way, the player knows with confidence where the laser will land when the player shoots the gun. Additionally, this method also gives the player a better idea on how far away their target is, since the sphere itself gets smaller the farther away the target is.</p>
+
+		<h4>The Pause Menu</h4>
+
+		<p>The other issue we ran across is how menu's are displayed to the user. In most games, when a player presses the pause menu, all action is stopped, and the menu is overlayed on top of the action. The first issue with this method is that the menu is just simply to close to the player. Imagine holding a newspaper just a few inches from your face. You can barely read the text because it's way to close, and what's worse, when you turned your head, the menu would follow, so there was no way get a better viewpoint. We took a look at Mike Alger's youtube video about VR design and figured we could do something similar in our game. We placed the menu below the player's waist, with the menu rotated so that it's facing upwards towards the playe's head. This way, when the player pauses the game, the menu doesn't intrude on the player's point of view, the player can comfortably read the menu, and it also tells the other players that the person is paused because right now there is no other reason to look down other than to read the pause menu.</p>
+
+		<h4>The Future</h4>
+
+		<p>We will have more updates soon! We are continuously working on the game.</p>
+
+		<h4>Special Thanks</h4>
+
+		<p>I want to diffinetly thank Convrge for their awesome tutorials on multiplayer networking, along with Quil18 on his tutorials on multiplayer networking. I also want to mention Mike Alger again, he's got a good eye for VR design.</p>
+
+	</div>
+</div>

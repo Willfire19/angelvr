@@ -9,6 +9,9 @@ app.use('/public', express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
+var blogEntries = {
+	"First Entry" : {title: "First Entry", partial: "../partials/blog/AmaranTime/first-entry.ejs" }
+};
 
 app.get('/', function( req, resp ) {
 
@@ -19,6 +22,14 @@ app.get('/', function( req, resp ) {
 app.get('/blog', function( req, resp ) {
 
 	resp.render('pages/blog');
+
+});
+
+app.get('/first-entry', function( req, resp ) {
+
+	resp.render('pages/blog', {
+		partialContent: blogEntries["First Entry"].partial
+	});
 
 });
 
