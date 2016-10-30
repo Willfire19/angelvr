@@ -10,7 +10,10 @@
 			<h1>AngelVR</h1>
 			<h2>Building, Experimenting, and Exploring Virtual Reality</h2>
 
-			<%- include(partialContent) %>
+			<% for (var post in blogPosts) { %>
+			  <%- include(blogPosts[post].partial) %>
+			<% } %>
+			
 			
 		</div>
 	</body>

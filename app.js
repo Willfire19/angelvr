@@ -21,14 +21,16 @@ app.get('/', function( req, resp ) {
 
 app.get('/blog', function( req, resp ) {
 
-	resp.render('pages/blog');
+	resp.render('pages/blog', {
+		blogPosts: blogEntries
+	});
 
 });
 
 app.get('/first-entry', function( req, resp ) {
 
 	resp.render('pages/blog', {
-		partialContent: blogEntries["First Entry"].partial
+		blogPosts: blogEntries["First Entry"]
 	});
 
 });
@@ -41,7 +43,7 @@ app.get('/joshua-angeley', function( req, resp ) {
 
 app.get('/joshua-angeley/resume', function( req, resp) {
 
-	resp.render('pages/joshAngeleyResume');
+	resp.render('pages/joshua-angeley');
 
 });
 
