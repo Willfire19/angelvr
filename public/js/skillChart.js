@@ -4,7 +4,8 @@ $(document).ready(function() {
 	var ctx = $("#skillChart").get(0).getContext("2d");
 
 	var data = {
-	  labels: ["Ruby on Rails", "Python", "Javascript", "C#", "Unity", "HTML", "CSS"],
+	  labels: ["C#", "Unity", "Angular", "Java", "Python", "Ruby on Rails"],
+
 	  datasets: [
 	    {
 	      label: "Skill Dataset",
@@ -14,7 +15,7 @@ $(document).ready(function() {
         pointStrokeColor: "#fff",
         pointHighlightFill: "#fff",
         pointHighlightStroke: "rgba(151,187,205,1)",
-	      data: [6, 6, 6, 6, 6, 8, 8]
+	      data: [8, 7, 7, 6, 6, 6]
 	    }
 	  ]
 	};

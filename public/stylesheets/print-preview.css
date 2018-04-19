@@ -231,6 +231,10 @@
     display: none !important;
   }
 
+  .only-resume {
+    display: inline-block;
+  }
+
   .work-date {
     display: block;
     float: right;
