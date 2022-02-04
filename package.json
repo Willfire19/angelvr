@@ -4,6 +4,7 @@
   "description": "A blog for my projects",
   "main": "app.js",
   "scripts": {
+    "local": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joshua Angeley",
