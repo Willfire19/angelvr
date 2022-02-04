@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<% include ../partials/header.ejs %>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/print.css">
+		<link rel="stylesheet" type="text/css" href="/stylesheets/print-preview.css">
+		
+		<!-- <link href='https://fonts.googleapis.com/css?family=Coda:800' rel='stylesheet' type='text/css'> -->
+		<link href='https://fonts.googleapis.com/css?family=Rubik+One' rel='stylesheet' type='text/css'>
+
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+		<script src="/js/skillChart.js"></script>
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="panel panel-default" style="margin-top: 10px;">
+				<div class="panel-body">
+
+					<!-- Resume Header and Contact-->
+					<div class="row">
+						
+						<!-- Header -->
+						<div class="col-xs-12 col-sm-8">
+							<h1>Joshua Angeley</h1>
+							<p class="lead">
+								Software Consultant with a passion for building VR worlds and experiences. VR has the power to completely immerse people into a new world, and I want to use that power to empower people to learn and play in ways that are impossible to do in the real world.
+							</p>
+							<!-- <p class="lead">Software engineer experienced in object-oriented programming. I develop, test, and debug code. I work on VR experiences for fun!</p> -->
+							<!-- <p class="lead">A Trail-Blazer in VR development</span></p> -->
+							<!-- <p class="lead">Software engineer experienced in object-oriented programming; developing, testing, and debugging code. <span class="no-resume">Successful working in both team and self-directed settings.</span></p> -->
+						</div>
+
+						<!-- Contact Info -->
+						<div class="col-xs-12 col-sm-4">
+							<ul class="fa-ul">
+								<li><i class="fa fa-home fa-fw"></i> Atlanta, GA</li>
+								<li><i class="fa fa-phone fa-fw"></i> 404 333-9064</li>
+								<li><i class="fa fa-envelope fa-fw"></i> willfire19@gmail.com</li>
+								<li><i class="fa fa-github-alt fa-fw"></i> github.com/Willfire19</li>
+							</ul>
+						</div>
+
+					</div>
+
+					<!-- Work Experience, Projects, Education, Skils, and Awards -->
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-8">
+							<!--Work Experience -->
+							<p class="category-header"> Work History </p>
+
+							<p><b>Slalom Consulting <span class="work-date"><span class="work-city">Atlanta, GA</span>December 2016 - Present</span></b></p>
+							<p><i>Consultant/Software Engineer</i></p>
+							<p>
+								I work with and lead Slalom teams to build software solutions for clients in the Atlanta area. Partners include major home retailers, home construction companies, airlines, and cruise lines. Some public examples include launching an online home purchasing website, and launching a weather information tool for airlines. Slalom projects are listed in the Selected Projects section.
+							</p>
+
+							<p><b>Circuit Therapeutics <span class="work-date"><span class="work-city">Menlo Park, CA</span>June 2015 - January 2017</span></b></p>
+							<p><i>Consultant/Software Engineer</i></p>
+							<p>
+								Software development of a calculator for light transmission in brain tissue to be used for optogenetics. Translating engineering simulation results to web ready code to develop a web based application. Code work in Python and Javascript, version control in Git, operating in Linux and Windows environments.
+							</p>
+
+							<p><b>DMAnalytics <span class="work-date"><span class="work-city">Atlanta, GA</span>December 2015 - August 2016</span></b></p>
+							<p><i>Software Engineer</i></p>
+							<p>
+								Modified our Databases in SQL Server to provide user management flexibility to our customers. I built a system that could interact with both SQL Server and Active Directory through SQL Queries, Stored Procedures, and C#.
+							</p>
+
+							<div class="no-resume">
+								<p><b>CoshXLabs <span class="work-date"><span class="work-city">Charlottesville, VA</span>Summer 2013</span></b></p>
+								<p><i>Software Engineering Intern</i> <b><span class="work-date">Summer 2014</span></b></p>
+								<p>
+									Worked with small teams to build websites for clients using Ruby on Rails, JQuery, HTML, and CSS.<br>
+									Assisted in maintaining and updating existing applications.<br>
+									Contributed to development of client side and server side code.<br>
+								</p>
+							</div>
+
+							<hr>
+							<!-- Projects -->
+							<p class="category-header"> Selected Projects </p>
+
+							<p><b>Vernacular - Katfe</b></p>
+							<p>
+								Led a team of Unity developers to build out a VR language learning application for the Oculus Launchpad. In 3 months, we developed a prototype that allows a user to order a drink in japanese using their voice. We utilized various NLP packages to integrate the speech recognition so that we can measure and grade a user’s performance. Our project was selected for a grant from Oculus in 2021, and we are actively working on more scenarios and experiences for our user’s to learn in.
+							</p>
+
+							<p><b>AmaranTime Arena</b></p>
+							<p>
+								Self-directed an Early Access VR Arcade Shooter that pushes the player to use their body, arsenal, and mastery over time to decimate the robot army onslaught. Players can choose to move with 3 different movement schemes, utilize 3 different types of weapons, and use special abilities including slowing down time! This game uses Unity as the game engine, and Blender for asset modeling. I managed contracting out 3D art and music and integrating those pieces into the game, along with coding the game mechanics for the game. An early look at the game can be viewed <a href="https://www.youtube.com/watch?v=XPVXEKBisHU" target="_blank">here</a></span>
+							</p>
+
+							<p><b>360.MEDIA</b></p>
+							<p>
+								Self-directed project to design a site to share 360° photos with remote family members. I am developing a site that allows users to upload 360° photos taken on cell phones (google camera) that can be shared via a link using Google cardboard for a VR experience.
+							</p>
+
+							<p><b>Online Home Purchase - Major Home Construction Company - Slalom Project</b></p>
+							<p>
+								Was one of two software leads that built out an Angular web app (.NET backend) for purchasing homes online for our client. I was a core developer, building out features under ambiguity, integrated libraries and financial services (Stripe) under little direction and in record time, and mentored junior engineers along the way.
+							</p>
+
+							<p><b>Refinery Tool - Major Oil Conglomerate - Slalom Project</b></p>
+							<p>
+								Coordinated with a remote UX team to incorporate a new design system into the pre-existing web-based admin dashboard for refinery tooling. Facilitated meetings with the UX team to get requirements on the design, then built a delivery plan for the remote dev team to build out reusable components based off the design system. Lastly, we collaborated with another dev team to integrate the components into the existing admin dashboard. Oversaw bi-weekly demos to show our teams progress to the client. 
+							</p>
+
+							<p><b>Weather Information Tool - Major Airline - Slalom Project</b></p>
+							<p>
+								Joined a small team to complete the MVP of a web based weather forecasting tool that informed meteorologists on when disruptive weather conditions would occur at different airports. We retrieved and redistributed data through Java SpringBoot services, and displayed the weather metrics with D3.js on an Angular Frontend WebApp. I was responsible for building reusable charts that we could reuse across the site.
+							</p>
+
+							<p><b>Design Center Appointment Scheduler - Major Home Retailer - Slalom Project</b></p>
+							<p>
+								Collaborated along with consultants from many vendors to build a public facing web based appointment registration and scheduler for a major home retailer in Atlanta. We built a distributed microservice architecture with Java SpringBoot orchestrated by Eureka. Worked extensively in Angular to create a seamless one page web application.
+							</p>
+
+							<p><b>One Paint Admin - Major Home Retailer - Slalom Project</b></p>
+							<p>
+								Our team revamped a Home Depot paint tool to improve workflow usability, helping associates fill out paint orders much more quickly and efficiently. We turned an old Java project into a Angular frontend, Nodejs backend project!
+							</p>
+
+							<div class="no-resume">
+								<p><b>Administrator Portal - Major Pharmaceutical R&D - Slalom Project</b></p>
+								<p>
+									Was involved in a remote team to support the Slalom Chicago team on delivering an international administrator portal to track patient studies and cases for Abbvie. We used React, Java SpringBoot Microservices, and used Amazon S3 to build our own custom database with automatic version control.
+								</p>
+							</div>
+
+							<div class="no-resume">
+								<p><b>LevelUp - Major Home Retailer - Slalom Project</b></p>
+								<p>
+									Contributed and oversaw code improvements in an existing game training app which improved thousands of associates training times in the Home Depot California stores! These changes were done in the Cordova Javascript app with a Java backend deployed to a TomCat Server.
+								</p>
+							</div>
+
+							<span class="no-resume">
+
+							<p><b>University of Virginia capstone project for the Haven, a non-profit organization that helps the homeless.</b> Working as a team, we developed a portal designed to streamline the volunteer sign in and scheduling process. I developed a generic form, for administration use only, to organize volunteer efforts. This application was written in Python on the Django web framework. This application was documented, presented and accepted by the customer. It is currently in use.
+							</p>
+
+							<p><b>TodoRaider - Software Developer</b></p>
+							<p>
+								Self-directed project at CoshX Labs to develop a time and task management application. This website, written in Ruby on Rails, used Test Driven Development (TDD) and Agile software development techniques. The site is built on Bootstrap for responsiveness and uses javascript to create and filter items.
+							</p>
+
+							<p><b>TechShare - Software Developer</b></p>
+							<p>
+								Self-directed project developing a marketplace for people to lend and borrow technical devices. Starting with the initial concept, I built a prototype using Google Spreadsheet, and then a complete web application, written in Ruby on Rails, and deployed on Heroku, a cloud application platform.
+							</p>
+							</span>
+
+						</div>
+
+						<!-- Education and Skills -->
+						<div class="col-xs-12 col-sm-4">
+
+							<!-- Education -->
+							<div>
+								<p class="category-header"> Education </p>
+								<p>
+									B.S. Computer Science, May 2015<br>
+									University of Virginia<br>
+									Charlottesville, VA
+								</p>
+							</div>
+
+							<!-- Skills -->
+							<div>
+								<p class="category-header"> Skills </p>
+								<canvas id="skillChart" width="200px;"></canvas>
+							</div>
+
+							<!-- Awards -->
+							<div>
+								<p class="category-header"> Awards </p>
+
+								<p style="margin-top: 5px;"><b>Oculus LaunchPad 2020</b></p>
+								<p><i>Grant Recipient - April 2021</i></p>
+								<p style="margin-top: 5px;">
+									Vernacular Katfe was one of 8 experiences that was selected by Oculus to receive a grant for its excellence in gameplay, polish, and care in cultural learning!
+								</p>
+
+								<p style="margin-top: 5px;"><b>DreamHack ATL</b></p>
+								<p><i>Indie Nominee - November 2019</i></p>
+								<p style="margin-top: 5px;">
+									My self-directed game AmaranTime Arena was selected to be presented at the Indie Showcase at DreamHack ATL. I was given a booth to show off my game to the attendees at the 3 Day conference for esports gaming!
+								</p>
+
+								<p style="margin-top: 5px;"><b>Hololens Hackathon</b></p>
+								<p><i>1st Place Winner - June 2017</i></p>
+								<p style="margin-top: 5px;">
+									Directed a team of 6 to build the first Paper football game for the Microsoft Hololens. In 24 hours, we built a game where you could place a football and a goal anywhere in the room, and then aim and hit the paper football through the goal. This project was used to demonstrate the Hololens spatial capabilities, along with proving our proficiency in rapid Merged Reality prototyping.
+								</p>
+
+								<p style="margin-top: 5px;"><b>PCArts <br>(Piedmont Council of the Arts)</b></p>
+								<p><i>2nd Place winner May 2014</i></p>
+								<p style="margin-top: 5px;">
+									Part of a team of UVA students that built an Android application for a local music non-profit organization. I was responsible for parsing json data into the android application.
+								</p>
+
+								<div class="no-resume">
+									<p style="margin-top: 15px;"><b>Richmond StartUp Weekend</b></p>
+									<p><i>2nd Place winner July 2013</i></p>
+									<p style="margin-top: 5px;">
+										Competed against 15 other teams to come up with the best startup idea in 48 hours. We built a fully functional prototype website that allows companies to a/b test their own websites easily and at a low cost. My contribution included coding the server-side in Ruby on Rails.
+									</p>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+	</body>
+</html>
