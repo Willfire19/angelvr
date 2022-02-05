@@ -30,3 +30,7 @@ div.panel-body {
   /*font-family: 'Coda', cursive;*/
   font-family: 'Rubik One', sans-serif;
 }
+
+.print-break {
+  margin-top: 0px;
+}

@@ -47,6 +47,12 @@ app.get('/joshua-angeley/resume', function( req, resp) {
 
 });
 
+app.get('/joshua-angeley/standard-resume', function( req, resp) {
+
+	resp.render('pages/joshua-angeley-standard');
+
+});
+
 http.listen( process.env.PORT || 3000, function() {
 	console.log('AngelVR listening on *:3000');
 });
