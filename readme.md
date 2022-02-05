@@ -14,3 +14,7 @@ nvm use {version}
 npm install
 
 node app.js OR npm run local
+
+## Deployment
+
+Right now the Production branch is tied to heroku, any push to the Production branch will auto-deploy to heroku.
