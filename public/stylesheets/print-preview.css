@@ -215,6 +215,11 @@
     margin-bottom: 5px;
   }
 
+  p.content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
   li {
     margin: 0px;
   }
