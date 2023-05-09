@@ -18,3 +18,12 @@ node app.js OR npm run local
 ## Deployment
 
 Right now the Production branch is tied to heroku, any push to the Production branch will auto-deploy to heroku.
+
+## Available Routes
+/joshua-angeley
+
+/joshua-angeley/vr-general-resume
+
+/joshua-angeley/vr-tech-resume
+
+/joshua-angeley/standard-resume

@@ -41,9 +41,15 @@ app.get('/joshua-angeley', function( req, resp ) {
 
 });
 
-app.get('/joshua-angeley/resume', function( req, resp) {
+app.get('/joshua-angeley/vr-general-resume', function( req, resp) {
 
 	resp.render('pages/joshua-angeley');
+
+});
+
+app.get('/joshua-angeley/vr-tech-resume', function( req, resp) {
+
+	resp.render('pages/joshua-angeley-vr-tech');
 
 });
 
