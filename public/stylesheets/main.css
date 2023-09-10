@@ -64,6 +64,16 @@ p.content {
 	height: 100%;
 }
 
+img.highlight-image {
+	width: 250px;
+	float: left;
+	margin-right: 25px;
+}
+
+div.highlight-content {
+	display: flow-root;
+}
+
 /*.row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;

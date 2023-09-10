@@ -27,3 +27,7 @@ Right now the Production branch is tied to heroku, any push to the Production br
 /joshua-angeley/vr-tech-resume
 
 /joshua-angeley/standard-resume
+
+/joshua-angeley/one-pager-vr-resume
+
+/joshua-angeley/one-pager-standard-resume

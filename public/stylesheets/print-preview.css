@@ -254,4 +254,8 @@
     margin-top: 5px;
   }
 
+  img.highlight-image {
+    width: 200px;
+  }
+
 }
