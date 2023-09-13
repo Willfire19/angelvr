@@ -258,4 +258,8 @@
     width: 200px;
   }
 
+  div.header h4.lead {
+    margin-left: 50px;
+  }
+
 }
