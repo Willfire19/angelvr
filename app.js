@@ -59,9 +59,9 @@ app.get('/joshua-angeley/standard-resume', function( req, resp) {
 
 });
 
-app.get('/joshua-angeley/one-pager-vr-resume', function( req, resp) {
+app.get('/joshua-angeley/two-pager-vr-resume', function( req, resp) {
 
-	resp.render('pages/joshua-angeley-one-pager-vr');
+	resp.render('pages/joshua-angeley-two-pager-vr');
 
 });
 
