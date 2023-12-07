@@ -64,6 +64,21 @@ p.content {
 	height: 100%;
 }
 
+div.highlight-container {
+	display: flex;
+}
+
+div.highlight-container img.highlight-image {
+	width: 250px;
+	float: left;
+	margin-right: 25px;
+	align-self: center;
+}
+
+div.highlight-content {
+	display: flow-root;
+}
+
 /*.row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;

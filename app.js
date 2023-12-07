@@ -15,7 +15,7 @@ var blogEntries = {
 
 app.get('/', function( req, resp ) {
 
-	resp.redirect('/blog');
+	resp.redirect('/joshua-angeley');
 
 });
 
@@ -56,6 +56,12 @@ app.get('/joshua-angeley/vr-tech-resume', function( req, resp) {
 app.get('/joshua-angeley/standard-resume', function( req, resp) {
 
 	resp.render('pages/joshua-angeley-standard');
+
+});
+
+app.get('/joshua-angeley/two-pager-vr-resume', function( req, resp) {
+
+	resp.render('pages/joshua-angeley-two-pager-vr');
 
 });
 
